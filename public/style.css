@@ -8,22 +8,24 @@ body {
   display: grid;
   place-items: center;
   padding: 24px;
-  background: #171923;
-  color: #f7f7f2;
+  background:
+    radial-gradient(ellipse at 15% 15%, #b51f3530, transparent 38%),
+    #f5f1ed;
+  color: #26201e;
   font-family: Arial, sans-serif;
 }
 
 .tarjeta {
   width: min(100%, 620px);
   padding: 48px;
-  border: 1px solid #383b4a;
+  border: 1px solid #eadbd7;
   border-radius: 20px;
-  background: #222533;
-  box-shadow: 0 20px 60px #0005;
+  background: #fff;
+  box-shadow: 0 20px 60px #4d1c1c18;
 }
 
 .etiqueta {
-  color: #b7f36b;
+  color: #c6283d;
   font-size: 12px;
   font-weight: bold;
   letter-spacing: 2px;
@@ -36,11 +38,11 @@ h1 {
 }
 
 h1 span {
-  color: #b7f36b;
+  color: #c6283d;
 }
 
 .tarjeta > p:not(.etiqueta) {
-  color: #c5c7d0;
+  color: #625b59;
   font-size: 18px;
   line-height: 1.6;
 }
@@ -50,12 +52,12 @@ a {
   margin-top: 16px;
   padding: 14px 20px;
   border-radius: 8px;
-  background: #b7f36b;
-  color: #171923;
+  background: #c6283d;
+  color: #fff;
   font-weight: bold;
   text-decoration: none;
 }
 
 a:hover {
-  background: #d0ff91;
+  background: #a91f32;
 }
